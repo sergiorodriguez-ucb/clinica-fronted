@@ -7,7 +7,22 @@
     <title>clinica-fronted</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="app">
+        <aside class="sidebar">
+          <div class="marca">Clínica Vitalis</div>
+          <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="pacientes.html" class="activo">Pacientes</a>
+            <a href="citas.html">Citas</a>
+          </nav>
+          <div class="usuario">
+            Conectado como<br><strong>Admin</strong><br>
+            <a href="index.html">Cerrar sesión</a>
+          </div>
+        </aside>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
